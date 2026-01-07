@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quantico;
+    background-color: #272C3D;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header div{
+    display: flex;
+    gap: 60px;
+    color: white;
+}
+.hero h2:hover{
+    color: #FF9C28;
+}
+input{
+    width: 250px;
+    background-color: #404864;
+}
+select{
+    width: 250px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #101220;
+    color: white;
+    border: none;
+}
+.bg{
+    height: 100vh;
+    background-color: rgb(48, 63, 63);
+    background-image: url(img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h1{
+    color: white;
+    text-align: center;
+}
+.ota{
+    text-align: center;
+}
+.box h2{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #1B1E27;
+}
+.box p{
+    color: white;
+    background-color: #1B1E27;
+}
+.box{
+    text-align: center;
+    justify-content: center;
+    background-color: #1B1E27;
+}
+.hero2 h2:hover{
+    color: #FF9C28;
+}
+footer div{
+    display: flex;
+    gap: 60px;
+    color: white;
+    text-align: center;
+    justify-content: right;
+}
+footer img{
+    align-items: center;
+}
